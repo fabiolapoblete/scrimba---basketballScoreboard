@@ -1,16 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basketball Scoreboard</title>
   </head>
   <body>
-    <div class="container">
-      <div>
-        <h3>HOME</h3>
-      </div>
-      <div>
-        <h3>GUEST</h3>
-      </div>
-    </div>
-    <script src="index.js"></script>
+    <body>
+      <section class="container">
+        <section class="score_card score_card--home">
+          <h3>HOME</h3>
+          <article class="score home__score"></article>
+          <section>
+            <button class="btn btn--One">+1</button>
+            <button class="btn btn--Two">+2</button>
+            <button class="btn btn--Three">+3</button>
+          </section>
+        </section>
+
+        <section class="score_card score_card--home">
+          <h3>GUEST</h3>
+          <article class="score guest__score"></article>
+          <section>
+            <button class="btn btn--One">+1</button>
+            <button class="btn btn--Two">+2</button>
+            <button class="btn btn--Three">+3</button>
+          </section>
+        </section>
+      </section>
+      <script src="script.js"></script>
+    </body>
   </body>
 </html>
