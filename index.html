@@ -14,21 +14,22 @@
           <h3>HOME</h3>
           <article class="score home__score"></article>
           <section>
-            <button class="btn btn--One">+1</button>
-            <button class="btn btn--Two">+2</button>
-            <button class="btn btn--Three">+3</button>
+            <button class="btn btn--One" onclick="addOneHome()">+1</button>
+            <button class="btn btn--Two" onclick="addTwoHome()">+2</button>
+            <button class="btn btn--Three" onclick="addThreeHome()">+3</button>
           </section>
         </section>
 
-        <section class="score_card score_card--home">
+        <section class="score_card score_card--guest">
           <h3>GUEST</h3>
           <article class="score guest__score"></article>
           <section>
-            <button class="btn btn--One">+1</button>
-            <button class="btn btn--Two">+2</button>
-            <button class="btn btn--Three">+3</button>
+            <button class="btn btn--One" onclick="addOneGuest()">+1</button>
+            <button class="btn btn--Two" onclick="addTwoGuest()">+2</button>
+            <button class="btn btn--Three" onclick="addThreeGuest()">+3</button>
           </section>
         </section>
+        <button class="btn--reset" onclick="resetScore()">RESET</button>
       </section>
       <script src="script.js"></script>
     </body>
